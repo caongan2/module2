@@ -19,6 +19,7 @@
                     <tbody>
                     <?php  foreach ($products as $key => $product): ?>
                     <tr>
+                        <td><?php echo $key+1 ?></td>
                         <td><?php echo $product->name ?></td>
                         <td><?php echo $product->category ?></td>
                         <td>
